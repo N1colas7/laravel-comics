@@ -1,5 +1,5 @@
-<div class="container-fluid footer-image">
-    <div class="row">
+<div class="container-fluid ">
+    <div class="row footer-image">
         <div class="col-6 c-white p-3 d-flex">
             <ul class="foot-list">
                 <li><h4>DC COMICS</h4></li>
@@ -43,12 +43,21 @@
 
         </div>
     </div>
-    <div class="row">
+    <div class="row end-foot p-3 d-flex">
         <div class="col-6">
-
+            <h4 class="c-white">SING-UP NOW</h4>
         </div>
-        <div class="col-6">
-
+        <div class="col-6 d-flex justify-content-around">
+                <div>
+                    <h4 class="primary">FOLLOW US</h4>
+                </div>
+                <div class="social">
+                    <img src="img/laravel-comics/images/footer-facebook.png" alt="image">
+                    <img src="img/laravel-comics/images/footer-twitter.png" alt="image">
+                    <img src="img/laravel-comics/images/footer-youtube.png" alt="image">
+                    <img src="img/laravel-comics/images/footer-pinterest.png" alt="image">
+                    <img src="img/laravel-comics/images/footer-periscope.png" alt="image">
+                </div>
         </div>
     </div>
 </div>
