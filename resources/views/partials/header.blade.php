@@ -9,15 +9,27 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-4">
-            image
+    <div class="row p-3">
+        <div class="col-2">
+            <img src="/images/dc-logo.png" alt="img">
         </div>
-        <div class="col-4">
-            nav
+        <div class="col-8">
+            <ul>
+                <li><b>Characters</b></li>
+                <li><b>Comics</b></li>
+                <li><b>Movies</b></li>
+                <li><b>TV</b></li>
+                <li><b>Games</b></li>
+                <li><b>Colletibles</b></li>
+                <li><b>Videos</b></li>
+                <li><b>Fans</b></li>
+                <li><b>News</b></li>
+                <li><b>Shop</b></li>
+            </ul>
         </div>
-        <div class="col-4">
-            searchbar
+        <div class="col-2 d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
         </div>
     </div>
 </div>    
