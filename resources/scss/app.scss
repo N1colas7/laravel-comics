@@ -7,6 +7,7 @@
 
 }
 
+//header
 .head-color {
     background-color: rgb(13, 110, 253);
     padding: 8px;
@@ -16,7 +17,7 @@
     color: white;
 }
 
-ul {
+.head-list {
     display: inline-block;
     list-style: none;
 
@@ -31,4 +32,19 @@ ul {
 
         }
     }
+}
+
+//footer
+.footer-image {
+    background-image: url("img/laravel-comics/images/footer-bg.jpg");
+}
+
+.foot-list {
+    list-style: none;
+}
+
+.bg-dc-image {
+    background-image: url("img/laravel-comics/images/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    height: 450px;
 }

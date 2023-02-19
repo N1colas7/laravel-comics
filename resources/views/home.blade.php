@@ -21,8 +21,8 @@
                 <h1>Titolo</h1>
             </div>
         </div>
-        @include('partials.footer')
     </div>
+    @include('partials.footer')
 </body>
 
 </html>

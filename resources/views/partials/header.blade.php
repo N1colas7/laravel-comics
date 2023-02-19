@@ -11,10 +11,10 @@
     </div>
     <div class="row p-3">
         <div class="col-2">
-            <img src="/images/dc-logo.png" alt="img">
+            <img src="img/laravel-comics/images/dc-logo.png" alt="img">
         </div>
         <div class="col-8">
-            <ul>
+            <ul class="head-list">
                 <li><b>Characters</b></li>
                 <li><b>Comics</b></li>
                 <li><b>Movies</b></li>
