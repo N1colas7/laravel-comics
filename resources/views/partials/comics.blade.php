@@ -1,5 +1,7 @@
+
 <div>
-    @foreach($products as $item)
-    <p>{{ $item['price']}}</p>
-    @endforeach
+    <img class="img-card-main img-fluid" src="{{ $item['thumb']}}" alt="{{ $item['description'] }}">
+</div>
+<div>
+    <p>{{ $item['title']}}</p>
 </div>
