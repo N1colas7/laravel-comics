@@ -17,4 +17,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/comics', function () {
+    $products = config('db');
+    
+    return view('comics',compact('products'));
+})->name('products');
+
 
