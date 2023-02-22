@@ -19,7 +19,8 @@ Route::get('/', function () {
     return view('home',compact('products'));
 });
 
-Route::get('/comics', function () {
-})->name('products');
+Route::get('/single_comics', function () {
+    return view('single_comics');
+});
 
 

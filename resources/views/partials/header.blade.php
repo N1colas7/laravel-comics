@@ -26,6 +26,7 @@
                 <li><b>News</b></li>
                 <li><b>Shop</b></li>
             </ul>
+            <p><a href="/single_comics">Comics Singolo</a></p>
         </div>
         <div class="col-2 d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
